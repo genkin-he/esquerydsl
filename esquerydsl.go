@@ -195,7 +195,7 @@ func (q leafQuery) handleMarshalType(queryType string) ([]byte, error) {
 	// lowercase wildcard queries
 	if q.Type == Wildcard {
 		if s, ok := q.Value.(string); ok {
-			q.Value = strings.ToLower(s)
+			q.Value = s
 		}
 	}
 

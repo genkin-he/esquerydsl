@@ -26,3 +26,6 @@
 # End of https://www.toptal.com/developers/gitignore/api/go
 coverage.html
 cc-test-reporter
+
+# editor files
+.idea/*
